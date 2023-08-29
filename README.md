@@ -11,4 +11,6 @@ yarn dev
 # or
 pnpm dev
 ```
-Chat en entimpo real usando pusher y supabase
+Chat en timpo real usando pusher y supabase
+---
+[visitar demo](https://real-time-chat-nextjs.vercel.app/)

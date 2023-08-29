@@ -26,7 +26,7 @@ export default async function RootLayout({
       <body className={inter.className}>
         <NextAuthProvider>
           <nav className="flex justify-between items-center  px-10 py-5 fixed top-0 left-0 w-full bg-white">
-            <h1 className="text-2xl">
+            <h1 className="text-2xl font-semibold">
               NextJs<span className="text-teal-500">Chat</span>
             </h1>
             {session ? (
@@ -34,7 +34,7 @@ export default async function RootLayout({
                 <img
                   src={session.user?.image as string}
                   alt="user profile photo"
-                  className="w-8 h-8 rounded-full mr-3 sm:w-12 sm:h-12"
+                  className="rounded-full mr-3 w-12 h-12"
                   width={50}
                   height={50}
                 />
